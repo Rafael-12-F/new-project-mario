@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+
+    <div class="header">
+        <img src="./img/logo-header.png">
+        <a>Home</a>
+        
+        <a onclick="queroFalar()"> Fale Conosco</a>
+    </div>
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./img/logo mario.png" alt="logo do mario bros" class="logo-mario" <br>
+
+
+            <p> Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidráulicos Com Estilo!
+            </p>
+            <br>
+
+            <p>
+                Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
+                entupidos ou torneiras que não param de pingar? <br> Não se preocupe, porque estamos aqui para salvar o
+                dia!
+                Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos <br> - Mario e Luigi!
+            </p>
+
+            <button class="botao" onclick="cliqueiNoBotao()">
+                ENTRE EM CONTATO
+            </button>
+        </div>
+
+
+
+
+        <div>
+            <img src="./img/mario.png" alt=" imagem do mario e luidi" class="mario-luidi">
+        </div>
+
+
+
+
+    </div>
+
+    <div class="caixa-video">
+        <video src="./img/video (1).mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+    <a href="https://wa.me/5511960220297" class="link-zap">
+        <img src="./img/whatsapp.png" alt="link para o whatsapp">
+    </a>
+
+
+
+    <form class="fale-conosco" 
+        action="https://formcarry.com/s/x6Z9CxWLO1m" 
+        method="POST" 
+        enctype="multipart/form-data">
+
+        <input placeholder="Digite seu Nome" type="text" name="nome">
+        <input placeholder="Digite seu telefone" type="tel" name="telefone">
+        <textarea placeholder="Digite seu Problema" name="duvidas"></textarea>
+        <button type="submit"> Pedir orçamento</button>
+    </form>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
